@@ -1,0 +1,10 @@
+var readlineSync = require("readline-sync");
+console.log("Multiplication Table")
+
+let a = readlineSync.question("enter a number");
+let b=parseInt(a)
+let i;
+for(i=0;i<=10;i++)
+{
+console.log(i,"*",b,"=",i*b,);
+}

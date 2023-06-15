@@ -1,0 +1,30 @@
+var readlineSync = require("readline-sync");
+let a = readlineSync.question("Enter the number");
+if(a==1)
+{
+    console.log("day:monday");
+}
+else if(a==2)
+{
+console.log("day:Tuesday");
+}
+else if(a==3)
+{
+console.log("day:Wednesday");
+}
+else if(a==4)
+{
+console.log("day:Thusday");
+}
+else if(a==2)
+{
+console.log("day:Friday");
+}
+else if(a==2)
+{
+console.log("day:Saturday");
+}
+else if(a==2)
+{
+console.log("day:Sunday");
+}

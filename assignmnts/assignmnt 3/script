@@ -1,0 +1,11 @@
+var readlineSync = require("readline-sync");
+let a = readlineSync.question("Enter a number:");
+ let b=parseInt(a)
+  if(b%2==0)
+  {
+    console.log("entered number is an Even Number");
+  }
+  else
+  {
+    console.log("entered number is an  Odd Number");
+  }
